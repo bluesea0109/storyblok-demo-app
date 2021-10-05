@@ -1,0 +1,17 @@
+# Write your query or mutation here
+query getProducts {
+  ProductItems {
+    items {
+      content {
+        name
+        description
+        images {
+          id
+          title
+          filename
+        }
+        url
+      }
+    }
+  }
+}

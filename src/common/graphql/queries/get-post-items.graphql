@@ -1,0 +1,13 @@
+# Write your query or mutation here
+query getPosts {
+  PostItems {
+    items {
+      content {
+        title
+        image
+        intro
+        long_text
+      }
+    }
+  }
+}
